@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "contact.html",
     "name": "Juniper Leaves",
     "theme": {
       "name": "mobirise3",
@@ -139,7 +139,7 @@
           "_params": {
             "parallax": true,
             "bgImageRadio": true,
-            "showArrow": true,
+            "showArrow": false,
             "bgImage": "@PROJECT_PATH@/assets/images/17076960-261955034261669-555918748360376320-n-2000x1490.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
@@ -422,7 +422,7 @@
           "_name": "contacts1",
           "_anchor": "contacts1-7",
           "_params": {
-            "paddingTop": "0",
+            "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
@@ -451,7 +451,7 @@
           },
           "text1": "<strong>Socials</strong><br>Instagram: @juniperleaveband<br>Twitter:<br>Tumblr:",
           "text2": "<strong>Contact</strong><br>\nEmail: juniperleavesband@gmail.com<br>",
-          "text3": "<strong>Links</strong><br>\n<a class=\"text-danger\" href=\"https://mobirise.com/\">Website builder</a><br>\n<a class=\"text-danger\" href=\"https://mobirise.com/mobirise-free-win.zip\">Download for Windows</a><br>\n<a class=\"text-danger\" href=\"https://mobirise.com/mobirise-free-mac.zip\">Download for Mac</a>",
+          "text3": "<p><strong>Links</strong><br><a href=\"#top\" class=\"text-danger\">Back to Top</a><br>\n<a href=\"http://instagram.com/juniperleavesband\" target=\"_blank\" class=\"text-danger\">Instagram</a><a href=\"http://instagram.com/juniperleavesband\" target=\"_blank\" class=\"text-danger\"></a><br>\n<a href=\"#\" class=\"text-danger\">Twitter</a><a class=\"text-danger\" href=\"https://mobirise.com/mobirise-free-mac.zip\"></a></p>",
           "_styles": {
             "P": {
               "color": "#232323"
@@ -727,7 +727,7 @@
           },
           "_anchor": "contacts1-7",
           "_params": {
-            "paddingTop": "0",
+            "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
@@ -756,7 +756,7 @@
           },
           "text1": "<strong>Socials</strong><br>Instagram: @juniperleaveband<br>Twitter:<br>Tumblr:",
           "text2": "<strong>Contact</strong><br>\nEmail: juniperleavesband@gmail.com<br>",
-          "text3": "<strong>Links</strong><br>\n<a class=\"text-danger\" href=\"https://mobirise.com/\">Website builder</a><br>\n<a class=\"text-danger\" href=\"https://mobirise.com/mobirise-free-win.zip\">Download for Windows</a><br>\n<a class=\"text-danger\" href=\"https://mobirise.com/mobirise-free-mac.zip\">Download for Mac</a>"
+          "text3": "<p><strong>Links</strong><br><a href=\"#top\" class=\"text-danger\">Back to Top</a><br>\n<a href=\"http://instagram.com/juniperleavesband\" target=\"_blank\" class=\"text-danger\">Instagram</a><a href=\"http://instagram.com/juniperleavesband\" target=\"_blank\" class=\"text-danger\"></a><br>\n<a href=\"#\" class=\"text-danger\">Twitter</a><a class=\"text-danger\" href=\"https://mobirise.com/mobirise-free-mac.zip\"></a></p>"
         },
         {
           "_tags": [
@@ -1105,7 +1105,7 @@
           },
           "_anchor": "contacts1-f",
           "_params": {
-            "paddingTop": "0",
+            "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
@@ -1134,7 +1134,7 @@
           },
           "text1": "<strong>Socials</strong><br>Instagram: @juniperleaveband<br>Twitter:<br>Tumblr:",
           "text2": "<strong>Contact</strong><br>\nEmail: juniperleavesband@gmail.com<br>",
-          "text3": "<strong>Links</strong><br>\n<a class=\"text-danger\" href=\"https://mobirise.com/\">Website builder</a><br>\n<a class=\"text-danger\" href=\"https://mobirise.com/mobirise-free-win.zip\">Download for Windows</a><br>\n<a class=\"text-danger\" href=\"https://mobirise.com/mobirise-free-mac.zip\">Download for Mac</a>"
+          "text3": "<p><strong>Links</strong><br><a href=\"#top\" class=\"text-danger\">Back to Top</a><br>\n<a href=\"http://instagram.com/juniperleavesband\" target=\"_blank\" class=\"text-danger\">Instagram</a><a href=\"http://instagram.com/juniperleavesband\" target=\"_blank\" class=\"text-danger\"></a><br>\n<a href=\"#\" class=\"text-danger\">Twitter</a><a class=\"text-danger\" href=\"https://mobirise.com/mobirise-free-mac.zip\"></a></p>"
         },
         {
           "_tags": [
