@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 24,
+    "uniqCompNum": 27,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -135,6 +135,13 @@
         {
           "_name": "header1",
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "header1-1",
           "_params": {
             "parallax": true,
@@ -157,14 +164,7 @@
           },
           "title": "<span style=\"font-weight: normal;\">Juniper Leaves</span>",
           "text": "Miami - Based Band",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"music.html\" data-toolbar=\"-mbrBtnMove\">MUSIC</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"#\" data-toolbar=\"-mbrBtnMove\">SOCIALS</a> ",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-family": "'Slabo 27px', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
-              "color": "#ffffff"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"music.html\" data-toolbar=\"-mbrBtnMove\">MUSIC</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"#\" data-toolbar=\"-mbrBtnMove\">SOCIALS</a> "
         }
       ]
     },
@@ -419,47 +419,60 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-7",
+          "_name": "contacts4",
+          "_anchor": "contacts4-q",
           "_params": {
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ffffff",
+            "bgColor": "#2e2e2e",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C"
           },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/logo-1-128x128.png",
-              "width": 128,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+          "text1": "<font color=\"#7c7c7c\" size=\"3\"><span style=\"letter-spacing: -0.800000011920929px; line-height: 16px;\"><b>Socials</b></span></font><br>Instagram: @juniperleavesband<br><br>\n<strong>Contacts</strong><br>juniperleavesband@gmail.com<br>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><li>INSTAGRAM</li><li>Back To To<span style=\"font-size: 0.875rem; line-height: 1.8;\">p</span><br></li></ul>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "kamezaga@miamiartsstudio.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
             },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "",
-              "size": 0
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": false,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
             }
           },
-          "text1": "<strong>Socials</strong><br>Instagram: @juniperleaveband<br>Twitter:<br>Tumblr:",
-          "text2": "<strong>Contact</strong><br>\nEmail: juniperleavesband@gmail.com<br>",
-          "text3": "<p><strong>Links</strong><br><a href=\"#top\" class=\"text-danger\">Back to Top</a><br>\n<a href=\"http://instagram.com/juniperleavesband\" target=\"_blank\" class=\"text-danger\">Instagram</a><a href=\"http://instagram.com/juniperleavesband\" target=\"_blank\" class=\"text-danger\"></a><br>\n<a href=\"#\" class=\"text-danger\">Twitter</a><a class=\"text-danger\" href=\"https://mobirise.com/mobirise-free-mac.zip\"></a></p>",
-          "_styles": {
-            "P": {
-              "color": "#232323"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\">Contact us</a>"
         },
         {
           "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#232323",
+              "font-size": "14px"
+            }
+          },
           "_anchor": "footer1-2",
           "_params": {
             "paddingTop": "1",
@@ -473,13 +486,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2017 Juniper Leaves",
-          "_styles": {
-            "P": {
-              "color": "#232323",
-              "font-size": "14px"
-            }
-          }
+          "text": "Copyright (c) 2017 Juniper Leaves"
         }
       ]
     },
@@ -655,6 +662,19 @@
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-title SPAN": {
+              "font-size": "60px",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
           "_anchor": "form1-b",
           "_params": {
             "labelsColor": "#ffffff",
@@ -700,63 +720,57 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#ffffff"
-            },
-            ".mbr-section-title": {
-              "color": "#ffffff"
-            },
-            ".mbr-section-title SPAN": {
-              "font-size": "60px",
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
-          "_name": "contacts1",
-          "_styles": {
-            "P": {
-              "color": "#232323"
-            }
-          },
-          "_anchor": "contacts1-7",
+          "_name": "contacts4",
+          "_anchor": "contacts4-q",
           "_params": {
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ffffff",
+            "bgColor": "#2e2e2e",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C"
           },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/logo-1-128x128.png",
-              "width": 128,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+          "text1": "<font color=\"#7c7c7c\" size=\"3\"><span style=\"letter-spacing: -0.800000011920929px; line-height: 16px;\"><b>Socials</b></span></font><br>Instagram: @juniperleavesband<br><br>\n<strong>Contacts</strong><br>juniperleavesband@gmail.com<br>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><li>INSTAGRAM</li><li>Back To To<span style=\"font-size: 0.875rem; line-height: 1.8;\">p</span><br></li></ul>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "kamezaga@miamiartsstudio.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
             },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "",
-              "size": 0
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": false,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
             }
           },
-          "text1": "<strong>Socials</strong><br>Instagram: @juniperleaveband<br>Twitter:<br>Tumblr:",
-          "text2": "<strong>Contact</strong><br>\nEmail: juniperleavesband@gmail.com<br>",
-          "text3": "<p><strong>Links</strong><br><a href=\"#top\" class=\"text-danger\">Back to Top</a><br>\n<a href=\"http://instagram.com/juniperleavesband\" target=\"_blank\" class=\"text-danger\">Instagram</a><a href=\"http://instagram.com/juniperleavesband\" target=\"_blank\" class=\"text-danger\"></a><br>\n<a href=\"#\" class=\"text-danger\">Twitter</a><a class=\"text-danger\" href=\"https://mobirise.com/mobirise-free-mac.zip\"></a></p>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\">Contact us</a>"
         },
         {
           "_tags": [
@@ -938,11 +952,22 @@
             "Theme"
           ],
           "_name": "features1",
+          "_styles": {
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#efefef"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-text": {
+              "color": "#232323"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-title": {
+              "color": "#000000"
+            }
+          },
           "_anchor": "features1-l",
           "_params": {
             "columnsColor": "#efefef",
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingTop": "0",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -1037,18 +1062,7 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_styles": {
-            ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#efefef"
-            },
-            ".mbr-cards-col:nth-child(odd) .card-text": {
-              "color": "#232323"
-            },
-            ".mbr-cards-col:nth-child(odd) .card-title": {
-              "color": "#000000"
-            }
-          }
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
           "_inherit": "gallery1",
@@ -1097,44 +1111,51 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "contacts1",
-          "_styles": {
-            "P": {
-              "color": "#232323"
-            }
-          },
-          "_anchor": "contacts1-f",
+          "_name": "contacts4",
+          "_anchor": "contacts4-p",
           "_params": {
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ffffff",
+            "bgColor": "#2e2e2e",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C"
           },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/logo-1-128x128.png",
-              "width": 128,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+          "text1": "<font color=\"#7c7c7c\" size=\"3\"><span style=\"letter-spacing: -0.800000011920929px; line-height: 16px;\"><b>Socials</b></span></font><br>Instagram: @juniperleavesband<br><br>\n<strong>Contacts</strong><br>juniperleavesband@gmail.com<br>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><li>INSTAGRAM</li><li>Back To To<span style=\"font-size: 0.875rem; line-height: 1.8;\">p</span><br></li></ul>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "kamezaga@miamiartsstudio.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
             },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "",
-              "size": 0
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": false,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
             }
           },
-          "text1": "<strong>Socials</strong><br>Instagram: @juniperleaveband<br>Twitter:<br>Tumblr:",
-          "text2": "<strong>Contact</strong><br>\nEmail: juniperleavesband@gmail.com<br>",
-          "text3": "<p><strong>Links</strong><br><a href=\"#top\" class=\"text-danger\">Back to Top</a><br>\n<a href=\"http://instagram.com/juniperleavesband\" target=\"_blank\" class=\"text-danger\">Instagram</a><a href=\"http://instagram.com/juniperleavesband\" target=\"_blank\" class=\"text-danger\"></a><br>\n<a href=\"#\" class=\"text-danger\">Twitter</a><a class=\"text-danger\" href=\"https://mobirise.com/mobirise-free-mac.zip\"></a></p>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\">Contact us</a>"
         },
         {
           "_tags": [
